@@ -47,5 +47,48 @@
 }
 
 #temp-info{
+    margin: 20px;
     font-size: 32px;
+}
+
+#section-parent{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    height: 500px;
+
+}
+
+#image-container{
+    width: 50%;
+}
+
+#what-we-provide{
+    justify-content: center; 
+    height: 500px;
+    font-size: 24px;
+}
+
+#what-we-provide h2{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    height: 500px;
+    border-radius: 20px;
+}
+
+#smart-home-energy p{
+    font-size: 30px;
+}
+
+#smart-home-energy{
+    margin:20px ;
 }
