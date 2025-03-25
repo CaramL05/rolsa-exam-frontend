@@ -1,14 +1,15 @@
 import './App.css';
-import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from './Components/Navbar/Navbar';
 import CarbonFootprint from './Pages/CarbonFootprint/CarbonFootprint';
 import Contact from './Pages/Contact/Contact';
 import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
+import SignUp from './Pages/SignUp/SignUp';
 import Services from './Pages/Services/Services';
 import Shop from './Pages/Shop/Shop';
-import SignUp from './Pages/SignUp/SignUp';
+import FooterSection from './Components/FooterSection/FooterSection';
+
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/sign-up" element={<SignUp />} />
 
       </Routes>
+      <FooterSection />
     </BrowserRouter>
   );
 }

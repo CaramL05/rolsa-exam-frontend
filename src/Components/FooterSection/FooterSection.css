@@ -1,0 +1,28 @@
+footer h2{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    
+    border-top: 2px solid black;
+}
+
+
+footer ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer li{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+footer li a{
+    color: black;
+}
+
+footer li a:hover{
+    color: rgba(0, 0, 0, 0.39);
+}
+
+
