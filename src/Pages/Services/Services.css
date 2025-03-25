@@ -1,0 +1,16 @@
+.images-container-parent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 20px;
+}
+
+.image-container{
+    background-color: #F0EEEE;
+    width: 432px;
+    height: 282px;
+    border-radius: 20px;
+
+}

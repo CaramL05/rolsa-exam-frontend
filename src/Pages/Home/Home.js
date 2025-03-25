@@ -1,5 +1,6 @@
 import './Home.css'
 import ChargingStation from "../../Images/Charging Station.jpg"
+import FooterSection from '../../Components/FooterSection/FooterSection';
 
 export default function Home(){
     return(
@@ -60,6 +61,8 @@ export default function Home(){
                     <img src={ChargingStation}></img>
                 </div>
             </div>
+
+        <FooterSection />
        </> 
     );
 }

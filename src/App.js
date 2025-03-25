@@ -8,7 +8,6 @@ import Login from './Pages/Login/Login';
 import SignUp from './Pages/SignUp/SignUp';
 import Services from './Pages/Services/Services';
 import Shop from './Pages/Shop/Shop';
-import FooterSection from './Components/FooterSection/FooterSection';
 
 
 function App() {
@@ -25,7 +24,6 @@ function App() {
         <Route path="/sign-up" element={<SignUp />} />
 
       </Routes>
-      <FooterSection />
     </BrowserRouter>
   );
 }
