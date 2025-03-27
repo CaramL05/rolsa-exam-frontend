@@ -1,0 +1,25 @@
+.calendar-container-parent{
+    margin-top: 100px;
+}
+
+.calendar-container-parent h1{
+    text-align: center;
+}
+
+.calendar-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.calendar-submit-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 50px;
+}
+
+.calendar-submit-btn button{
+    width: 100px;
+}
