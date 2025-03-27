@@ -1,4 +1,5 @@
 import './PostcodeInput.css'
+import { Link } from 'react-router-dom';
 
 export default function PostcodeInput() {
     return(
@@ -8,9 +9,9 @@ export default function PostcodeInput() {
 
                     <form className="services-postcode-field">
                         <label for="postcode"></label>
-                        <input type="text" id="postcode" name="postcode" placeholder="Enter Postcode" />
+                        <input type="text" id="postcode" name="postcode" placeholder="Enter Postcode" required/>
                         
-                        <button className='services-quote-btn'>GET QUOTE</button>
+                        <button className='services-quote-btn'><Link to="service-questionnaire">Get Quote</Link></button>
                     </form>
                     
                 </div>

@@ -1,0 +1,32 @@
+.questionnaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.questionnaire h1{
+    text-align: center;
+}
+
+.questionnaire-submit-btn{
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    margin: 20px;
+}
+
+.service-btn button{
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 50px;
+    width: 130px;
+    background-color: #108424;
+    color: white;
+    border: 0px;
+}
+
+.service-btn button a{
+    color: white;
+    text-decoration: none;
+}
