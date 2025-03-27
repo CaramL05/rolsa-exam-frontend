@@ -8,6 +8,7 @@ import Login from './Pages/Login/Login';
 import SignUp from './Pages/SignUp/SignUp';
 import Services from './Pages/Services/Services';
 import Shop from './Pages/Shop/Shop';
+import AboutService from './Components/AboutService/AboutService';
 
 
 function App() {
@@ -19,9 +20,11 @@ function App() {
         <Route path="/carbon-footprint" element={<CarbonFootprint />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/services/about-service" element={<AboutService />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/login" element={<Login />} />
         <Route path="/sign-up" element={<SignUp />} />
+        
 
       </Routes>
     </BrowserRouter>

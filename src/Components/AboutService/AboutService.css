@@ -1,0 +1,21 @@
+.extra-content-parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.large-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    background-color: #F0EEEE;
+    border: 1px solid black;
+    border-radius: 40px;
+
+    width: 1657px;
+    height: 438px;
+
+
+}

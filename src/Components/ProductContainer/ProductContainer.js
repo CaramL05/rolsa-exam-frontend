@@ -1,4 +1,5 @@
 import './ProductContainer.css'
+import { Link } from 'react-router-dom';
 
 export default function ProductContainer({description, price, buttontxt}) {
     return(
@@ -16,7 +17,7 @@ export default function ProductContainer({description, price, buttontxt}) {
                 
                 </div>
                 <div className="service-btn">
-                    <button>{buttontxt}</button>
+                    <button><Link to="/services/about-service">{buttontxt}</Link></button>
                 </div> 
             </div>
             

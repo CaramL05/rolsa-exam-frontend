@@ -13,13 +13,13 @@ export default function Home(){
                         <label for="postcode"></label>
                         <input type="text" id="postcode" name="postcode" placeholder="Enter Postcode" />
                         
-                        <button id='get-quote-btn'>GET QUOTE</button>
+                        <button className='get-quote-btn'>GET QUOTE</button>
                     </form>
                     
                 </div>
             </div>
             
-            <section id='about-company'>
+            <section className='about-company'>
                 <h1 id='title'>WHO ARE ROLSA TECHNOLOGIES?</h1>
                 <p id='temp-info'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -30,11 +30,11 @@ export default function Home(){
                 </p>
             </section>
 
-            <section id='section-parent'>
-                <div id='image-container'>
+            <section className='section-parent'>
+                <div className='image-container'>
                     <img src={ChargingStation}></img>
                 </div>
-                <div id='what-we-provide'>
+                <div className='what-we-provide'>
                     <h2>WHAT WE PROVIDE</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -47,9 +47,9 @@ export default function Home(){
                 </div>
             </section>    
                 
-            <div id='section-parent'>
+            <div className='section-parent'>
 
-                <div id='what-we-provide'>
+                <div className='what-we-provide'>
                     <h2>SMART HOME ENERGY MANAGEMENT</h2>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -57,7 +57,7 @@ export default function Home(){
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </div>
-                <div id='image-container'>
+                <div className='image-container'>
                     <img src={ChargingStation}></img>
                 </div>
             </div>
