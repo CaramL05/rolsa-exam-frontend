@@ -11,6 +11,7 @@ import Shop from './Pages/Shop/Shop';
 import AboutService from './Components/AboutService/AboutService';
 import ServiceQuestionsPage from './Pages/ServiceQuestionPage/ServiceQuestionPage';
 import CalendarPage from './Pages/CalendarPage/CalendarPage';
+import ServicesPaymentPage from './Pages/ServicesPaymentPage/ServicesPaymentPage';
 
 
 function App() {
@@ -28,6 +29,8 @@ function App() {
         <Route path="/sign-up" element={<SignUp />} />
         <Route path="/services/about-service/service-questionnaire" element={<ServiceQuestionsPage />} />
         <Route path="/services/about-service/service-questionnaire/calendar" element={<CalendarPage />} />
+        <Route path="/payment" element={<ServicesPaymentPage />} />
+
 
 
         
