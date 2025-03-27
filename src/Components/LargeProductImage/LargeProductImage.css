@@ -1,3 +1,42 @@
 .large-product-image-parent{
-    background-color: grey;
+    width: 800px;
+    height: 700px;
+    margin: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F0EEEE;
+    border: 1px solid black;
+    border-radius: 60px;
+    margin-top: 20px;
+    width: 600px;
+    height: 500px;
+}
+
+.payment-content-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+.payment-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+
+}
+
+.payment-details-parent{
+    width: 50%;
 }
