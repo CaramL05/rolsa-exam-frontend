@@ -1,7 +1,6 @@
 .service-container-parent{
-    background-color: grey;
     width: 450px;
-    height: 600px;
+    height: 450px;
 
     display: flex;
     flex-direction: column;
@@ -10,16 +9,18 @@
 }
 
 .service-image{
-    background-color: blue;
-    color: white;
+    background-color: #F0EEEE;
+    color: black;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
     width: 350px;
-    height: 400px;
+    height: 250px;
     margin-top: 20px;
+    border-radius: 40px;
+    border: 1px solid black;
 }
 
 .service-desc-parent{
@@ -28,8 +29,28 @@
     align-items: center;
 }
 
-.service-btn{
+.service-description h2{
+    text-align: center;
+}
+
+.service-btn button{
     margin-top: 20px;
+    border-radius: 20px;
+    height: 50px;
+    width: 130px;
+    background-color: #108424;
+    color: white;
+    border: 0px;
+}
+
+.service-btn button:hover{
+    background-color: #118d26d8;
+    cursor: pointer;
+}
+
+.service-btn button:active{
+    transform: scale(0.96);
+    
 }
 
 .service-price p{

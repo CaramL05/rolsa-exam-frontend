@@ -6,9 +6,9 @@ import ProductContainer from '../../Components/ProductContainer/ProductContainer
 export default function Services(){
     return(
         <div className="service-master-parent">
-            <ProductContainer description="service 1" buttontxt="Get Quote" price="£600"/>
-            <ProductContainer description="service 2" buttontxt="Get Quote" price="£999"/>
-            <ProductContainer description="service 3" buttontxt="Get Quote" price="£200"/>
+            <ProductContainer description="Solar Panel Installation & Maintenance" buttontxt="Get Quote" price="£600"/>
+            <ProductContainer description="Electric Vehicle Charging Stations" buttontxt="Get Quote" price="£999"/>
+            <ProductContainer description="Smart Home Energy Management Systems" buttontxt="Get Quote" price="£200"/>
 
             <ProductContainer description="service 4" buttontxt="Get Quote" price="£600"/>
             <ProductContainer description="service 5" buttontxt="Get Quote" price="£999"/>

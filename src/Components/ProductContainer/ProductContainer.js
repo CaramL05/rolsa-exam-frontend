@@ -10,9 +10,9 @@ export default function ProductContainer({description, price, buttontxt}) {
                <div className="service-description">
                 <h2>{description}</h2>
 
-                <div className="service-price">
+                {/* <div className="service-price">
                     <p>{price}</p>
-                </div>
+                </div> */}
                 
                 </div>
                 <div className="service-btn">
