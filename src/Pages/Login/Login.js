@@ -1,5 +1,6 @@
 import './Login.css'
 import { Link } from 'react-router-dom';
+import SignUp from '../SignUp/SignUp';
 
 export default function Login() {
     return (
@@ -16,7 +17,7 @@ export default function Login() {
                         <input type="password" id="password" name="password" placeholder="Password" />
 
                         <input type="submit" value="Submit"></input>
-                        <button type="submit" value="Register"><Link to="#">Register</Link></button>
+                        <button type="submit" value="Register"><Link to="/sign-up">Sign Up</Link></button>
                     </form>
                 </div>
             </div>
