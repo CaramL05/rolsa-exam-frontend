@@ -1,0 +1,9 @@
+.carbon-calculator-master h1, h2{
+    margin: 20px;
+    text-align: center;
+}
+
+.carbon-calculator-master h2{
+    margin: 20px;
+    text-align: start;
+}

@@ -12,6 +12,7 @@ import AboutService from './Components/AboutService/AboutService';
 import ServiceQuestionsPage from './Pages/ServiceQuestionPage/ServiceQuestionPage';
 import CalendarPage from './Pages/CalendarPage/CalendarPage';
 import ServicesPaymentPage from './Pages/ServicesPaymentPage/ServicesPaymentPage';
+import CalculateCarbonFootprint from './Pages/CalculateCarbonFootprint/CalculateCarbonFootprint';
 
 
 function App() {
@@ -30,11 +31,7 @@ function App() {
         <Route path="/services/about-service/service-questionnaire" element={<ServiceQuestionsPage />} />
         <Route path="/services/about-service/service-questionnaire/calendar" element={<CalendarPage />} />
         <Route path="/payment" element={<ServicesPaymentPage />} />
-
-
-
-        
-
+        <Route path="/calculate-footprint" element={<CalculateCarbonFootprint />} />
       </Routes>
     </BrowserRouter>
   );

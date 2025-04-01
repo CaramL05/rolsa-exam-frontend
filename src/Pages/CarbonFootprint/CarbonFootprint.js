@@ -1,6 +1,7 @@
 import './CarbonFootprint.css'
 import ChargingStation from "../../Images/Charging Station.jpg"
 import FooterSection from '../../Components/FooterSection/FooterSection';
+import { Link } from 'react-router-dom';
 
 export default function CarbonFootprint(){
     return(
@@ -46,7 +47,8 @@ export default function CarbonFootprint(){
             <br />
             
             <div className="carbon-frpint-calc-btn-container">
-                <button className="carbon-frpint-calc-btn">Click Here!</button>
+                    
+                    <button className="carbon-frpint-calc-btn"><Link to="/calculate-footprint">Click here!</Link></button>
             </div>
             
             <FooterSection />
