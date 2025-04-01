@@ -13,3 +13,39 @@
     width: 350px;
     height: 30px;
 }
+
+.support-input-container .enquiry-field{
+    width: 350px;
+    height: 300px;
+}
+
+.enquiry-dropdown select{
+    width: 360px;
+    border: 1px solid black;
+
+}
+
+.support-submit-btn-parent{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.support-submit-btn button{
+    width: 250px;
+    height: 35px;
+    background-color: #108424;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.support-submit-btn button:hover{
+    cursor: pointer;
+    background-color: #108423e0;
+}
+
+.support-email{
+    margin: 10px;
+}
