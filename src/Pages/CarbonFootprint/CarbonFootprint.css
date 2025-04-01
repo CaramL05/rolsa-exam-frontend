@@ -1,4 +1,4 @@
-.carbon-fprint-master h1{
+.carbon-fprint-master h1, h2{
     text-align: center;
 }
 
@@ -24,3 +24,25 @@
     border: 1px solid black;
     height: 500px;
 }
+
+.carbon-frpint-calc-btn{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #108424;
+    color: white;
+    
+}
+
+.carbon-frpint-calc-btn:hover{
+    cursor: pointer;
+    background-color: #108423d5;
+}
+
+.carbon-frpint-calc-btn-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+

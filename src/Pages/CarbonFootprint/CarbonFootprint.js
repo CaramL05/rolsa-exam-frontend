@@ -34,6 +34,20 @@ export default function CarbonFootprint(){
                     Ut dolore nostrum sit atque soluta ea pariatur earum ut delectus dolorum aut voluptatum libero. Qui debitis quos vel reiciendis blanditiis qui porro totam sed earum consequatur et neque fugit in aperiam maiores et atque sequi. Et natus quisquam sit voluptatum iusto qui doloremque perspiciatis. Sit velit voluptatem vel galisum possimus et voluptatem dicta qui dolorum suscipit aut totam perferendis.
                 </div> 
             </div>
+            
+            <br />
+            <br />
+
+            <h1>Whats your carbon footprint?</h1>
+            <h2>Figure out your carbon footprint below...</h2>
+
+            <br />
+            <br />
+            
+            <div className="carbon-frpint-calc-btn-container">
+                <button className="carbon-frpint-calc-btn">Click Here!</button>
+            </div>
+            
         </div>
     );
 }
