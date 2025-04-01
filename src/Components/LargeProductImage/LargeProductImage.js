@@ -1,4 +1,5 @@
 import './LargeProductImage.css'
+import PaymentButton from '../PaymentButton/PaymentButton';
 
 export default function LargeProductImage({description}) {
     return(
@@ -18,7 +19,8 @@ export default function LargeProductImage({description}) {
                     <p>£999</p>
                 </div>
                 <div className='payment-buttons'>
-                    
+                    <PaymentButton text="Pay Now"/>
+
                 </div>
 
 
