@@ -1,0 +1,26 @@
+.carbon-fprint-master h1{
+    text-align: center;
+}
+
+.carbon-fprint-section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.placeholder-text{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    background-color: blue;
+}
+
+.carbon-fprint-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 500px;
+}
