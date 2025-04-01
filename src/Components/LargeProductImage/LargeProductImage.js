@@ -19,10 +19,15 @@ export default function LargeProductImage({description}) {
                     <p>£999</p>
                 </div>
                 <div className='payment-buttons'>
-                    <PaymentButton text="Pay Now"/>
-                    <PaymentButton text="Apple Pay"/>
-                    <PaymentButton text="Google Pay"/>
-                    <PaymentButton text="Shop"/>
+                    <div className='buttons1'>
+                        <PaymentButton text="Pay Now" />
+                        <PaymentButton text="Apple Pay"/>   
+                    </div>
+                    <div className='buttons2'>
+                        <PaymentButton text="Google Pay"/>
+                        <PaymentButton text="Shop"/>   
+                    </div>
+                    
                 </div>
 
 
