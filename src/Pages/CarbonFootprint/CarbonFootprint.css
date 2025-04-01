@@ -1,5 +1,6 @@
 .carbon-fprint-master h1, h2{
     text-align: center;
+    margin-bottom: 60px;
 }
 
 .carbon-fprint-section{
@@ -13,6 +14,7 @@
     display: flex;
     align-items: center;
     width: 50%;
+    font-size: 20px;
 }
 
 .carbon-fprint-image{
@@ -21,7 +23,9 @@
     justify-content: center;
     align-items: center;
     border: 1px solid black;
+    border-radius: 30px;
     height: 500px;
+    
 }
 
 .carbon-frpint-calc-btn{
