@@ -1,4 +1,4 @@
-button{
+.payment-btn button{
     width: 110px;
     height: 40px;
     border-radius: 10px;
@@ -7,7 +7,7 @@ button{
     border: none;
 }
 
-button:hover{
+.payment-btn button:hover{
     background-color: #108423dc;
     cursor: pointer;
 }
