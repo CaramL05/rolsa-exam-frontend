@@ -34,3 +34,26 @@
     height: 350px;
 }
 
+.key-container-parent{
+    background-color: #F0EEEE;
+    width: 100%;
+    height:300px;
+}
+
+.result-information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+.save-score-btn .service-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.save-score-btn .service-btn button{
+    width: 350px;
+    border-radius: 10px;
+}
