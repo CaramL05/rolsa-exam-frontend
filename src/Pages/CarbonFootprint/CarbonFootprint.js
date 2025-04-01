@@ -1,5 +1,6 @@
 import './CarbonFootprint.css'
 import ChargingStation from "../../Images/Charging Station.jpg"
+import FooterSection from '../../Components/FooterSection/FooterSection';
 
 export default function CarbonFootprint(){
     return(
@@ -48,6 +49,7 @@ export default function CarbonFootprint(){
                 <button className="carbon-frpint-calc-btn">Click Here!</button>
             </div>
             
+            <FooterSection />
         </div>
     );
 }
