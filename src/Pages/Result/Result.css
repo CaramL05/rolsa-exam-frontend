@@ -1,0 +1,36 @@
+.result-master{
+    margin: 20px;
+}
+
+.result-master h1{
+    text-align: center;
+}
+
+.result-master h2{
+    color: #108424;
+    font-size: 40px;
+}
+
+.result-container{
+    display: flex;
+}
+
+.result{
+
+    display: flex;
+    align-items: center;
+    width: 50%;
+
+}
+
+.foot-image-container{
+    display: flex;
+    justify-content: end;
+    width: 45%;
+
+}
+
+.foot-image-container img{
+    height: 350px;
+}
+

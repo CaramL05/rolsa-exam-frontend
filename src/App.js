@@ -13,7 +13,7 @@ import ServiceQuestionsPage from './Pages/ServiceQuestionPage/ServiceQuestionPag
 import CalendarPage from './Pages/CalendarPage/CalendarPage';
 import ServicesPaymentPage from './Pages/ServicesPaymentPage/ServicesPaymentPage';
 import CalculateCarbonFootprint from './Pages/CalculateCarbonFootprint/CalculateCarbonFootprint';
-
+import Result from './Pages/Result/Result';
 
 function App() {
   return (
@@ -32,6 +32,7 @@ function App() {
         <Route path="/services/about-service/service-questionnaire/calendar" element={<CalendarPage />} />
         <Route path="/payment" element={<ServicesPaymentPage />} />
         <Route path="/calculate-footprint" element={<CalculateCarbonFootprint />} />
+        <Route path="/result" element={<Result />} />
       </Routes>
     </BrowserRouter>
   );

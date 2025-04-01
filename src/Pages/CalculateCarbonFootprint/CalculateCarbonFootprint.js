@@ -52,7 +52,7 @@ export default function CalculateCarbonFootprint() {
             </select>
 
             <div className='service-btn'>
-                <button><Link to="#">Submit</Link></button>
+                <button><Link to="/result">Submit</Link></button>
             </div>
         </div>
     );
