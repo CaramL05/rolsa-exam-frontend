@@ -1,4 +1,5 @@
 import './CalculateCarbonFootprint.css'
+import { Link } from 'react-router-dom';
 
 export default function CalculateCarbonFootprint() {
     return (
@@ -14,7 +15,45 @@ export default function CalculateCarbonFootprint() {
                 <option value="lorem">Other</option>
             </select>
 
-            
+            <h2>Question 2</h2>
+            <label for="lorem">Choose option:</label>
+            <select id="lorem">
+                <option value="lorem">Lorem</option>
+                <option value="lorem">Lorem</option>
+                <option value="lorem">Lorem</option>
+                <option value="lorem">Lorem</option>
+            </select>
+
+            <h2>Question 3</h2>
+            <label for="lorem">Choose option:</label>
+            <select id="lorem">
+                <option value="lorem">Lorem</option>
+                <option value="lorem">Lorem</option>
+                <option value="lorem">Lorem</option>
+                <option value="lorem">Lorem</option>
+            </select>
+
+            <h2>Question 4</h2>
+            <label for="lorem">Choose option:</label>
+            <select id="lorem">
+                <option value="lorem">Lorem</option>
+                <option value="lorem">Lorem</option>
+                <option value="lorem">Lorem</option>
+                <option value="lorem">Lorem</option>
+            </select>
+
+            <h2>Question 5</h2>
+            <label for="lorem">Choose option:</label>
+            <select id="lorem">
+                <option value="lorem">Lorem</option>
+                <option value="lorem">Lorem</option>
+                <option value="lorem">Lorem</option>
+                <option value="lorem">Lorem</option>
+            </select>
+
+            <div className='service-btn'>
+                <button><Link to="#">Submit</Link></button>
+            </div>
         </div>
     );
 }

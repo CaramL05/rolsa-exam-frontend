@@ -1,9 +1,22 @@
-.carbon-calculator-master h1, h2{
+.carbon-calculator-master{
     margin: 20px;
+}
+
+.carbon-calculator-master h1{
     text-align: center;
 }
 
 .carbon-calculator-master h2{
     margin: 20px;
     text-align: start;
+}
+
+.carbon-calculator-master .service-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.carbon-calculator-master .service-btn button{
+    width: 350px;
+    border-radius: 10px;
 }
