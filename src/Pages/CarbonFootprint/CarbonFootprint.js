@@ -3,6 +3,6 @@ import ChargingStation from "../../Images/Charging Station.jpg"
 
 export default function CarbonFootprint(){
     return(
-        <div>carbon Footprint</div>
+        <div>Carbon Footprint</div>
     );
 }
