@@ -1,6 +1,7 @@
 import './Login.css'
 import { Link } from 'react-router-dom';
-import SignUp from '../SignUp/SignUp';
+import { useState } from 'react';
+import axios from 'axios'; 
 
 export default function Login() {
     return (
