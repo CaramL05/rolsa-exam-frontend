@@ -19,6 +19,9 @@ export default function Shop(){
             </div>
             
             <FooterSection />
+
+            <script src="https://climateclock.world/widget-v2.js" async></script>
+            <climate-clock />
         </div>
     );
 }

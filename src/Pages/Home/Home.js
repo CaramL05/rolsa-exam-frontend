@@ -77,6 +77,10 @@ export default function Home(){
             </section>
 
         <FooterSection />
+        
+        <script src="https://climateclock.world/widget-v2.js" async></script>
+        <climate-clock />
+
        </> 
     );
 }

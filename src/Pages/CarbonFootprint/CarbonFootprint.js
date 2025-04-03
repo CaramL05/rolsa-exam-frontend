@@ -52,6 +52,9 @@ export default function CarbonFootprint(){
             </div>
             
             <FooterSection />
+
+            <script src="https://climateclock.world/widget-v2.js" async></script>
+            <climate-clock />
         </div>
     );
 }

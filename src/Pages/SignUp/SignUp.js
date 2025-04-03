@@ -7,9 +7,9 @@ export default function SignUp(){
     const [formData, setFormData] = useState({ fname: '', username:'', email: '', password: '' });
     const handleSubmit = async (e) => {
         e.preventDefault();
-    
+
         try {
-          const response = await axios.post('/api/users', formData); // Chnage link if needed inside ''
+          const response = await axios.post('http://localhost:8001/api/users', formData); // Chnage link if needed inside ''
           console.log('User added successfully:', response.data);
           // Handle success (e.g., show a success message, redirect, etc.)
         } catch (error) {
