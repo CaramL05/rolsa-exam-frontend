@@ -1,5 +1,5 @@
 /* Style inputs */
-input[type=email], input[type=password], select {
+input[type=email], input[type=password], [type=text], select {
     justify-content: center;
     width: 100%;
     padding: 12px 20px;
