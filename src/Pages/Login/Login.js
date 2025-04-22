@@ -10,7 +10,7 @@ export default function Login() {
         e.preventDefault();
     
         try {
-          const response = await axios.post('http://localhost:8001/api/users', formData);
+          const response = await axios.post('http://localhost:8001/auth/login', formData);
           console.log('User added successfully:', response.data);
           // Handle success (e.g., show a success message, redirect, etc.)
         } catch (error) {
